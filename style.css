@@ -2,6 +2,8 @@
 body{
     background-color: #D8D8D8;
     overflow-x:hidden;
+    font-size: 14px;
+    color: #404040;
 }
 .navbar {
     
@@ -44,7 +46,7 @@ body{
 }
 .card-title {
     overflow: hidden;
-    padding: 4px 8px 0;
+    padding: 4px 8px 40px;
     height: 34px;
     opacity: 1;
     text-align: left;
@@ -103,4 +105,45 @@ body{
 }
 .card-footer:hover .hover-card{
     display: block;
+}
+
+.information-third {
+    box-shadow: 0 -1px 0 0 rgb(64 64 64 / 40%), 0 1px 0 0 rgb(64 64 64 / 40%);
+}
+
+.information-third .information-section{
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 16px;
+    margin: 0 auto;
+    align-items: center;
+    color: #404040;
+}
+p.infomation-left {
+    width: 70%;
+    float: left;
+}
+p.information-right {
+    font-size: 14px;
+    text-align: center;
+    width: 30%;
+    border-radius: 1px solid;
+    border-left: 1px solid;
+    height: 34px;
+    margin: 0 auto;
+    float: right;
+}
+p.information-right .fa-circle{
+    color: #8C3F90;
+    font-size: 28px;
+    margin: 1px 13px;
+    font-weight: 500;
+}
+.hover-third-start {
+    margin-left: 60px;
+    border-top: none;
+    border-left: 1px solid rgba(64,64,64,.4);
+    padding-left: 44px;
+    width: auto;
 }
